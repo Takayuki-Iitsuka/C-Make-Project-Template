@@ -1,0 +1,16 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Executables
+*.exe
+*.out
+
+# Debug files
+*.dSYM/
+
+# IDE specific files
+#.vscode/
+.idea/

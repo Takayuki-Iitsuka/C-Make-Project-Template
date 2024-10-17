@@ -1,0 +1,37 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe アクティブなファイルのビルド",
+            "command": "C:/development_tools/GCC/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0/mingw64/bin/gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-std=gnu2x",
+                "-Wall",
+                "-Wextra",
+                "-Wunused",
+                "-Og",
+                "-g3",
+                "-fanalyzer",
+                "-finput-charset=UTF-8",
+                "-fexec-charset=CP932",
+                "-fwide-exec-charset=utf-16le",
+                "${file}",
+                "-o",
+                "${workspaceFolder}/program.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build task for main.c"
+        }
+    ],
+    "version": "2.0.0"
+}

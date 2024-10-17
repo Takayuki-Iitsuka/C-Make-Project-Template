@@ -1,0 +1,10 @@
+{
+    "editor.fontFamily": "'PlemolJP35 Console NF','PlemolJP Console NF',Consolas, 'Courier New', monospace",
+    "editor.fontSize": 14.5,
+    "C_Cpp.default.cStandard": "gnu23",
+    "C_Cpp.default.cppStandard": "gnu++23",
+    "C_Cpp.default.compileCommands": "C:\\development_tools\\GCC\\x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0\\mingw64\\bin\\gcc.exe",
+    "files.associations": {
+        "stdio.h": "c"
+    },
+}
